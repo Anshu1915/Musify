@@ -24,4 +24,22 @@ PROCESS OF PROJECT:
      ->Search Functionality: Users should be able to search for songs, albums, artists, and playlists.  
      ->Responsive Design: The app should be designed to work on different devices and screen sizes. This could involve using media queries and CSS frameworks like              Bootstrap or Material UI. 
      ->Admin Dashboard: The app may require an admin dashboard to manage user accounts, music metadata, and other backend functionality. This could be built using                 React and a backend like Express.
-           
+ INSTALLATION:
+ step 1: Install Node.js: Install Node.js on your system. You can download it from the official website (https://nodejs.org/en/download/).
+
+ step 2:Install MongoDB: Install MongoDB on your system. You can download it from the official website (https://www.mongodb.com/try/download/community).
+
+step 3:Clone the project: Clone the Spotify clone project from the GitHub repository (https://github.com/lucasnaja/spotify-clone-mern.git) to your local machine.
+
+step 3:Install dependencies: Navigate to the project directory in your terminal and run the command 'npm install' to install all the required dependencies.
+
+step 4:Set up environment variables: Create a '.env' file in the root directory of the project and add the following variables:
+      MONGODB_URI=mongodb://localhost:27017/spotify-clone
+           JWT_SECRET=your_secret_key_here
+      Replace your_secret_key_here with a random string of characters that will be used to sign JSON Web Tokens.
+
+step 5: Start the server: Run the command 'npm run' server to start the server.
+
+step 6: Start the client: Open a new terminal window, navigate to the project directory, and run the command 'npm run client' to start the React client.
+
+step 7: Access the application: Open your browser and navigate to 'http://localhost:3000' to access the Spotify clone application.
